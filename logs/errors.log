@@ -1,0 +1,212 @@
+ERROR 2024-12-24 17:11:32,120 log Internal Server Error: /api/register/student/account-creation/
+ERROR 2024-12-24 17:11:32,121 basehttp "POST /api/register/student/account-creation/ HTTP/1.1" 500 68
+ERROR 2024-12-24 17:19:55,659 log Internal Server Error: /api/register/student/account-creation/
+ERROR 2024-12-24 17:19:55,659 basehttp "POST /api/register/student/account-creation/ HTTP/1.1" 500 68
+ERROR 2024-12-24 17:21:03,370 log Internal Server Error: /api/register/student/account-creation/
+ERROR 2024-12-24 17:21:03,370 basehttp "POST /api/register/student/account-creation/ HTTP/1.1" 500 68
+ERROR 2024-12-24 17:37:34,261 log Internal Server Error: /api/register/student/account-creation/
+ERROR 2024-12-24 17:37:34,263 basehttp "POST /api/register/student/account-creation/ HTTP/1.1" 500 68
+ERROR 2024-12-25 20:32:57,381 log Internal Server Error: /student-registration
+Traceback (most recent call last):
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2024-12-25 20:32:57,383 basehttp "GET /student-registration HTTP/1.1" 500 79950
+ERROR 2024-12-25 20:32:57,499 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2024-12-25 20:32:57,500 basehttp "GET /favicon.ico HTTP/1.1" 500 79549
+ERROR 2024-12-25 21:33:01,757 log Internal Server Error: /student-registration
+Traceback (most recent call last):
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2024-12-25 21:33:01,761 basehttp "GET /student-registration HTTP/1.1" 500 79950
+ERROR 2024-12-25 21:33:01,865 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2024-12-25 21:33:01,866 basehttp "GET /favicon.ico HTTP/1.1" 500 79549
+ERROR 2024-12-25 21:42:36,901 log Internal Server Error: /student-registration
+Traceback (most recent call last):
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2024-12-25 21:42:36,906 basehttp "GET /student-registration HTTP/1.1" 500 79950
+ERROR 2024-12-25 21:42:37,029 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2024-12-25 21:42:37,030 basehttp "GET /favicon.ico HTTP/1.1" 500 79549
+ERROR 2025-03-01 15:29:45,558 log Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2025-03-01 15:29:45,562 basehttp "GET / HTTP/1.1" 500 79306
+ERROR 2025-03-01 15:29:45,713 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2025-03-01 15:29:45,714 basehttp "GET /favicon.ico HTTP/1.1" 500 79209
+ERROR 2025-03-01 15:32:50,453 log Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2025-03-01 15:32:50,457 basehttp "GET / HTTP/1.1" 500 79443
+ERROR 2025-03-01 15:32:50,548 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2025-03-01 15:32:50,549 basehttp "GET /favicon.ico HTTP/1.1" 500 79209
+ERROR 2025-03-01 15:32:52,055 log Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2025-03-01 15:32:52,057 basehttp "GET / HTTP/1.1" 500 79443
+ERROR 2025-03-01 15:32:52,145 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/karimazizi/Documents/my_django_app/venv/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2025-03-01 15:32:52,146 basehttp "GET /favicon.ico HTTP/1.1" 500 79209
